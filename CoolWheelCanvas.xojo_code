@@ -16,7 +16,7 @@ Inherits Canvas
 		  gg.ForeColor = &c000000         //draw ring outer
 		  gg.FillOval(0, 0, Width, Height)
 		  gg.ForeColor = &cFFFFFF         //draw ring inner
-		  gg.FillOval(40, 40, Width-80, Height-80)
+		  gg.FillOval(g.width / 4, g.height / 4, Width-g.width / 2, Height-g.height / 2)
 		  
 		  gg = p.Graphics
 		  gg.ForeColor = &cAAAAAA         //fill ring color
@@ -46,11 +46,9 @@ Inherits Canvas
 		  Dim CenterString as String = "Loading..."
 		  g.TextFont = "System"
 		  g.ForeColor = kBlue
-		  g.TextSize = 18
-		  Dim CenterStringWidth as Double = g.StringWidth(CenterString)
-		  Dim CenterStringHeight as Integer = g.StringHeight(CenterString, 400)
-		  Dim xPos as Integer =  ((self.Width/2)-(CenterStringWidth/2))+2
-		  Dim yPos as Integer = ((self.Height/2)-(CenterStringHeight/2))+16
+		  g.TextSize = me.Width / 10
+		  Dim xPos as Integer =  ((self.Width/2)-(g.stringwidth("Loading...")/2))+2
+		  Dim yPos as Integer = ((self.Height/2)-(g.textsize/2)) + g.textsize
 		  g.DrawString(CenterString, xPos, yPos)
 		End Sub
 	#tag EndEvent
