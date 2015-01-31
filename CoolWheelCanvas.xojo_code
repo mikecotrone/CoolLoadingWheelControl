@@ -1,5 +1,5 @@
 #tag Class
-Protected Class MW_CoolWheel
+Protected Class CoolWheelCanvas
 Inherits Canvas
 	#tag Event
 		Sub Paint(g As Graphics, areas() As REALbasic.Rect)

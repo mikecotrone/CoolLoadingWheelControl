@@ -26,7 +26,7 @@ Begin Window Window1
    Title           =   "Demo"
    Visible         =   True
    Width           =   254
-   Begin CoolWheelContainer MikeCircleContainer1
+   Begin CoolWheelContainer CoolWheelContainer1
       AcceptFocus     =   False
       AcceptTabs      =   False
       AutoDeactivate  =   True
@@ -37,7 +37,6 @@ Begin Window Window1
       HasBackColor    =   False
       Height          =   180
       HelpTag         =   ""
-      Index           =   -2147483648
       InitialParent   =   ""
       Left            =   37
       LockBottom      =   True

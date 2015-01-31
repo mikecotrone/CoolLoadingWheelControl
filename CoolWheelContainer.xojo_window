@@ -38,7 +38,7 @@ Begin ContainerControl CoolWheelContainer
       Top             =   40
       Width           =   32
    End
-   Begin MW_CoolWheel CoolWheelControl
+   Begin CoolWheelCanvas CoolWheelControl
       AcceptFocus     =   False
       AcceptTabs      =   False
       AutoDeactivate  =   True
@@ -95,7 +95,6 @@ End
 #tag Events AnimationTimer
 	#tag Event
 		Sub Action()
-		  
 		  If CoolWheelControl.Direction = 0 Then
 		    // DETECT IF WE NEED TO SWITCH DIRECTIONS
 		    IF IncrementVal = 100 then
