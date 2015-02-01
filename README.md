@@ -8,7 +8,6 @@ Author: Mike Cotrone (mikec@intelligentvisibility.com)
 Version: 1.0.1
 
 Licensed Under: BSD-3-Clause
-https://github.com/IntelligentVisibility/CoolLoadingWheelControl/blob/master/LICENSE
 
 Contributors: Will Shank, Tomas Jakobs
 
