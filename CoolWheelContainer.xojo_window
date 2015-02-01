@@ -46,7 +46,7 @@ Begin ContainerControl CoolWheelContainer
       Direction       =   0
       DoubleBuffer    =   False
       Enabled         =   True
-      EraseBackground =   True
+      EraseBackground =   False
       Height          =   140
       HelpTag         =   ""
       Index           =   -2147483648

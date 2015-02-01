@@ -2,6 +2,14 @@
 Protected Class CoolWheelCanvas
 Inherits Canvas
 	#tag Event
+		Sub Open()
+		  #IF TargetWin32 Then
+		    Me.DoubleBuffer = True
+		  #ENDIF
+		End Sub
+	#tag EndEvent
+
+	#tag Event
 		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
 		  // ---------- CODE BLOCK THANKS TO WILL SHANK
 		  static p As Picture
