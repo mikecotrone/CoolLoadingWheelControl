@@ -1,11 +1,11 @@
 # Cool Loading Wheel Control for Xojo
-Date: January 31, 2015
+Date: December 5, 2020
 
-Language: Xojo all versions
+Language: Xojo 2020
 
-Author: Mike Cotrone (mikec@intelligentvisibility.com)
+Author: Mike Cotrone (mikec@2tab.io)
 
-Version: 1.0.1
+Version: 2.0
 
 Licensed Under: BSD-3-Clause
 https://github.com/IntelligentVisibility/CoolLoadingWheelControl/blob/master/LICENSE.MD
