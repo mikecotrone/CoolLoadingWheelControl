@@ -15,5 +15,5 @@ Contributors: Will Shank, Tomas Jakobs
 This is a "loading wheel" that is very cool looking and has a twitter bootstrap feel. This control is built on a Canvas class that has been subclassed onto a container control for portability.
 
 #Screen Shot
-https://github.com/IntelligentVisibility/CoolLoadingWheelControl/wiki/Cool-Wheel-Control-Screen-shots
+https://github.com/mikecotrone/CoolLoadingWheelControl/wiki/Cool-Wheel-Control-Screen-shots
 
